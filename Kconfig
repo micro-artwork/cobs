@@ -1,0 +1,5 @@
+menuconfig LIB_COBS
+	bool "Enable the COBS(Consistent Overhead Byte Stuffing) library"
+	default n
+  help
+    Encoding and decoding functions for packet framing in serial communications.

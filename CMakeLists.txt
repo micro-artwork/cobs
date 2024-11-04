@@ -1,0 +1,5 @@
+if (CONFIG_LIB_COBS)
+  zephyr_library()
+  zephyr_include_directories(.)
+  zephyr_library_sources(cobs.c)
+endif (CONFIG_LIB_COBS)
